@@ -1,0 +1,6 @@
+Log Analysis Report
+-----------------------
+ERROR: 3 occurrences
+WARNING: 2 occurrences
+
+Analysis Complete.
