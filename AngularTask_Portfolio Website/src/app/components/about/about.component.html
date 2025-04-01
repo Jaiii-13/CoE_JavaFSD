@@ -1,0 +1,36 @@
+<!-- src/app/components/about/about.component.html -->
+<div class="about-container">
+  <h2>About Me</h2>
+  <p>
+    Hi, I'm <strong>Jai Murugan Raja G</strong>, a passionate developer specializing in
+    front-end and full-stack development. I enjoy building interactive and
+    high-performance web applications.
+  </p>
+
+  <div class="education-section">
+    <h3>Education</h3>
+    <ul>
+      <li><strong>10th:</strong> Don Bosco - Marks: 81%</li>
+      <li><strong>12th:</strong> Don Bosco - Marks: 86%</li>
+      <li><strong>B.E:</strong> Panimalar Engineering College - CGPA: 8.70</li>
+    </ul>
+  </div>
+
+  <div class="experience-section">
+    <h3>Experience</h3>
+    <ul>
+      <li>
+        <strong>UI Specialist Trainee</strong> at Tech Mahindra(2025 - Present)
+      </li>
+      <li><strong>Frontend Developer</strong> at ABC Tech (2024 - 2025)</li>
+      <li><strong>Intern</strong> at Infinite Computer Solutions (2023 - 2024)</li>
+    </ul>
+  </div>
+
+  <div class="skills-section">
+    <h3>Skills</h3>
+    <div class="skills-list">
+      <span *ngFor="let skill of skills">{{ skill }}</span>
+    </div>
+  </div>
+</div>

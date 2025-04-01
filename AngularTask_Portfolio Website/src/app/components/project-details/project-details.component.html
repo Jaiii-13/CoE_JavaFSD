@@ -1,0 +1,15 @@
+<!-- src/app/components/project-details/project-details.component.html -->
+<div *ngIf="isLoading">
+  <p>Loading project details...</p>
+</div>
+<div *ngIf="errorMessage">
+  <p class="error">{{ errorMessage }}</p>
+</div>
+<div *ngIf="project && !errorMessage">
+  <h2>{{ project.title }}</h2>
+  <img [src]="project.image" alt="{{ project.title }}" class="project-image" />
+  <p>{{ project.description }}</p>
+  <a [href]="project.link" target="_blank" class="btn btn-primary"
+    >View Project</a
+  >
+</div>

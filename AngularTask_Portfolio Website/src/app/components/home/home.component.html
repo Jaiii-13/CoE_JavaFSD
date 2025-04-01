@@ -1,0 +1,23 @@
+<!-- src/app/components/home/home.component.html -->
+<div class="home-container">
+  <div class="hero-section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>
+      I'm <strong>Jai Murugan Raja G</strong>, a passionate
+      <span class="highlight">Web Developer</span> crafting digital experiences.
+    </p>
+    <a routerLink="/about" class="btn">Learn More</a>
+  </div>
+
+  <div class="skills-showcase">
+    <h2>What I Do</h2>
+    <div class="skills-grid">
+      <div class="skill-card" *ngFor="let skill of skills">
+        <i [class]="skill.icon"></i>
+        <h3>{{ skill.title }}</h3>
+        <p>{{ skill.description }}</p>
+      </div>
+    </div>
+  </div>
+  <a routerLink="/projects" class="btn">View All Projects</a>
+</div>

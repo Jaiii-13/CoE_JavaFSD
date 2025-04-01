@@ -1,0 +1,51 @@
+/* src/app/components/about/about.component.css */
+.about-container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h2,
+h3 {
+  color: #007bff;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
+
+.education-section,
+.experience-section,
+.skills-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.skills-list span {
+  background: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}

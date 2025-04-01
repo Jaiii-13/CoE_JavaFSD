@@ -1,0 +1,36 @@
+<!-- src/app/components/contact/contact.component.html -->
+<div class="contact-section">
+  <div class="contact-box">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Reach out via email, phone, or social media.</p>
+    <div class="contact-info">
+      <div class="contact-item">
+        <img src="http://localhost:8090/gmail.jpg" alt="Email" class="icon" />
+        <span>Email:</span>
+        <a [href]="'mailto:' + email">{{ email }}</a>
+      </div>
+      <div class="contact-item">
+        <img src="http://localhost:8090/contact.jpg" alt="Phone" class="icon" />
+        <span>Phone:</span>
+        <a [href]="'tel:' + phone">{{ phone }}</a>
+      </div>
+      <div class="contact-item">
+        <img src="http://localhost:8090/insta.jpg" alt="Instagram" class="icon" />
+        <span>Instagram:</span>
+        <a [href]="'https://instagram.com/' + instagram" target="_blank">&#64;{{ instagram }}</a>
+      </div>
+      <div class="contact-item">
+        <img src="http://localhost:8090/twitter.jpg" alt="Twitter" class="icon" />
+        <span>Twitter:</span>
+        <a [href]="'https://twitter.com/' + twitter" target="_blank">&#64;{{ twitter }}</a>
+      </div>
+      <div class="contact-item">
+        <img src="http://localhost:8090/linkedin.jpg" alt="LinkedIn" class="icon" />
+        <span>LinkedIn:</span>
+        <a [href]="'https://linkedin.com/in/' + linkedin" target="_blank">{{
+          linkedin
+          }}</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* src/app/components/navbar/navbar.component.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2b2a2a;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin: 0 10px;
+}
